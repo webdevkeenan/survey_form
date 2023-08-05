@@ -4,7 +4,107 @@
     box-sizing: border-box;
 }
 
+/****************** 
 
+      General 
+
+******************/
+
+html {
+    background-image: url("enrique-guzman-egas-gSstgCAgd3U-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-top: 50px;
+}
+
+
+.container {
+    margin: 0 auto;
+    width: 70%;
+    max-width: 600px;
+}
+
+#title, #description {text-align: center;}
+
+.form__control {margin-bottom: 60px;}
+
+.user__input {
+    display: flex;
+    flex-direction: column;
+}
+
+.user__input > label, .user__input > input {padding-bottom: 10px}
+
+#dropdown {
+    width: 100%; 
+    height: 40px;
+}
+
+#name, #email, #number, select {height: 40px;}
+
+.radio__menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.radio__menu > label {padding-top: 10px;}
+
+.checkbox__menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox__menu > label {padding-top: 10px;}
+
+textarea {width: 100%;}
+
+button {
+    width: 100%;
+    margin-bottom: 100px;
+    padding: 15px
+}
+
+form {
+    background:linear-gradient(160deg, steelblue, steelblue, steelblue 60%, white);
+    padding: 25px
+}
+
+/**************************************
+
+    Typography
+
+
+*************************************/
+
+h1 {
+    color: yellow; 
+    text-shadow: 2px 2px 2px black;
+}
+
+#description {
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 2px black;
+
+}
+
+html {
+    color: white; 
+    font-size: 1.5rem;
+    font-family: 'Handjet', cursive;
+}
+button {color: black;}
+
+/***************************
+
+        Notes 
+
+***************************/
+
+
+/*****
+I do not Typically use #IDs unless I am using it for links so that I can keep specificty low. But this project calls for it for me to "pass".
+
+/*****
 
 /* Build a Survey Form
 
