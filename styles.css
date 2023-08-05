@@ -81,6 +81,13 @@ form {
     padding: 25px
 }
 
+.form__control {
+    background-color: navy; 
+    padding: 20px;
+    border: 2px solid white;
+}
+
+
 /**************************************
 
     Typography
