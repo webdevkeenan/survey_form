@@ -59,10 +59,14 @@ html {
 
 textarea {width: 100%;}
 
-button {
+#submit{
     width: 100%;
     margin-bottom: 100px;
-    padding: 15px
+    padding: 15px;
+    background-color: navy;
+    color: white;
+    font-family: 'Handjet', cursive;
+    font-size: 1.1rem;
 }
 
 form {
