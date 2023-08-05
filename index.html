@@ -12,9 +12,11 @@
 </head>
 <body>
     <div class="container">
+        <!-- Title -->
         <h1 id="title">Keenan's Brand Spanking New Survey Form</h1>
         <p id="description">A Survey Form By Yours Truly</p>
             <form action="" id="survey-form">
+        <!-- User Input -->
                 <div class="form__control user__input">
                 <label for="name" id="name-label">Name :</label>
                 <input type="text" id="name" placeholder="Enter Your Name" required>
@@ -23,6 +25,7 @@
                 <label for="number" id="number-label">Age :</label>
                 <input type="number" id="number" placeholder="Enter Your Age" min="18" max="120" required>
                 </div>
+         <!-- Dropdown Menu -->       
                 <div class="form__control dropdown__menu">
                     <p>What's Your Favorite Video Game Console?</p>
                     <select name="dropdown" id="dropdown">
@@ -32,11 +35,14 @@
                         <option value="PC">PC</option>
                     </select>
                 </div>
+        <!-- Radio Menu -->
                 <div class="form__control radio__menu">
                     <p>Do You Believe That Modern Gaming Is Too Easy?</p>
                     <label for="yes"><input type="radio" name="radio" value="Yes"> Yes</label>
                     <label for="no"><input type="radio" name="radio" value="No"> No</label>
                 </div>
+
+        <!-- Checkbox Menu -->
                 <div class="form__control checkbox__menu">
                     <p>Which Consoles Do You Own?</p>
                     <label for="checkbox"><input type="checkbox" value="Playstation"> Playstation</label>
@@ -44,6 +50,8 @@
                     <label for="checkbox"><input type="checkbox" value="PC"> PC</label>
                     <label for="checkbox"><input type="checkbox" value="Xbox"> Xbox</label>
                 </div>
+
+        <!-- Text Area (Comments) and Submit Button -->
                 <div class="form__control text__area--menu">
                     <p>Any Comments/Suggestions?</p>
                     <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Enter any additional comments"></textarea>
