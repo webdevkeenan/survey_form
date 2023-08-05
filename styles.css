@@ -69,6 +69,13 @@ textarea {width: 100%;}
     font-size: 1.1rem;
 }
 
+#submit:hover {
+    background-color: white;
+    color: black;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
 form {
     background:linear-gradient(160deg, steelblue, steelblue, steelblue 60%, white);
     padding: 25px
