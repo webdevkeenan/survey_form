@@ -9,7 +9,7 @@
 
 ## Skills Displayed: 
 
-+ Responsivene Web Design
++ Responsive Web Design
 + Label and Input Tags (Radio, Checkbox, Textarea etc.)
 
 ### v1.0
