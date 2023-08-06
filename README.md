@@ -7,9 +7,9 @@ https://webdevkeenan.github.io/survey_form/
 https://github.com/webdevkeenan/survey_form/wiki
 
 ## Tools Used: 
-+ Visual Studio Code
-+ Pop!_OS (Linux)
-+ Git
++ [Visual Studio Code](https://code.visualstudio.com/)
++ [Pop!_OS (Linux)](https://pop.system76.com/)
++ [Git](https://git-scm.com/)
 
 ## Skills Displayed: 
 
