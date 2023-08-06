@@ -79,7 +79,8 @@ textarea {width: 100%;}
 
 form {
     background:linear-gradient(160deg, steelblue, steelblue, steelblue 60%, white);
-    padding: 25px
+    padding: 25px;
+    border: 2px solid black; 
 }
 
 .form__control {
