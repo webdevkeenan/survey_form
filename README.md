@@ -1,6 +1,7 @@
 # A Survey Form (Practice)
 
-[Link To Site](https://webdevkeenan.github.io/survey_form/)
+## Link To Site:
+https://webdevkeenan.github.io/survey_form/
 
 ### Wiki
 https://github.com/webdevkeenan/survey_form/wiki
