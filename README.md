@@ -1,5 +1,6 @@
 # A Survey Form 
 If You Submit the required information into the form, I will be emailed the information you provided.  
+
 ### Link To Site:
 https://webdevkeenan.github.io/survey_form/
 
@@ -16,8 +17,9 @@ https://github.com/webdevkeenan/survey_form/wiki
 + Responsive Web Design
 + Label and Input Tags (Radio, Checkbox, Textarea etc.)
 
-### v1.1
-![Screenshot 2023-08-05 at 22-50-02 Keenan's Brand Spanking New Survey Form](https://github.com/webdevkeenan/survey_form/assets/42125735/cc457007-8aad-4cd9-a13b-08db928925d1)
+### v1.2 [Email]
+
+![Screenshot 2023-08-09 at 17-04-07 Keenan's Brand Spanking New Survey Form](https://github.com/webdevkeenan/survey_form/assets/42125735/0959919a-fa30-4576-a003-3c75fa27903a)
 
 
 ### Image Credits
