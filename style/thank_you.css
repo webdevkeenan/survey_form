@@ -1,0 +1,79 @@
+*, ::before, ::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {font-size: 62.5%;}
+
+img {width: 100%;}
+
+.wrapper {
+    background-color: #070018;
+}
+
+
+/************************
+
+    General
+
+************************/
+
+/**** Header *****/
+
+header {
+    /** Flexbox **/
+   /*  display: flex;
+    justify-content: center;
+    align-items: center; */
+    /** CSS Grid **/
+    display:grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__img {
+    max-width: 800px;
+}
+
+
+/**** Main *****/
+
+
+/**** Section ****/
+
+
+
+/**** Footer ****/
+
+
+
+/***********************
+
+    Typography
+
+***********************/
+
+/**** Header *****/
+
+
+
+/**** Main *****/
+
+
+/**** Section ****/
+
+
+
+/**** Footer ****/
+
+
+
+
+
+
+/**********************
+
+    Media Query
+
+**********************/
