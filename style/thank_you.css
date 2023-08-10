@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+html, body {height: 100%; overflow: hidden}
+
 html {font-size: 62.5%;}
 
 img {width: 100%;}
@@ -39,9 +41,33 @@ header {
 
 /**** Main *****/
 
+main {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px 0 50px 0;
+    background-image: url("../imgs/enrique-guzman-egas-gSstgCAgd3U-unsplash.jpg");
+    background-position: center;
+    background-color: gray;
+    background-size: cover;
+    background-blend-mode: multiply;
+    color: white;
+    text-shadow: 4px 4px 6px black;
+}
+
 
 /**** Section ****/
 
+.btn__section {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.return__btn {
+    padding: 20px 50px;
+}
 
 
 /**** Footer ****/
@@ -60,6 +86,17 @@ header {
 
 /**** Main *****/
 
+h1 {
+    font-size: 7rem;
+}
+
+p {
+    font-size: 3rem;
+}
+
+.submit__btn {
+    width: 100px;
+}
 
 /**** Section ****/
 
