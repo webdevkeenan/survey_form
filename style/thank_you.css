@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-html, body {height: 100%; overflow: hidden}
 
 html {font-size: 62.5%;}
 
@@ -14,6 +13,10 @@ img {width: 100%;}
     background-color: #070018;
 }
 
+body {
+    height: 100vh;
+    background-color: #070018;
+}
 
 /************************
 
@@ -46,7 +49,7 @@ main {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 100px 0 50px 0;
+    padding: 100px 0 100px 0;
     background-image: url("../imgs/enrique-guzman-egas-gSstgCAgd3U-unsplash.jpg");
     background-position: center;
     background-color: gray;
@@ -59,21 +62,36 @@ main {
 
 /**** Section ****/
 
-.btn__section {
+.btn__div {
     display: grid;
     justify-content: center;
     align-items: center;
+    margin: 50px
 }
 
 .return__btn {
     padding: 20px 50px;
+    background-color: #070018;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.return__btn:hover {
+    cursor: pointer;
+    transition: 0.7s ease-in-out;
+    background-color: yellow;
+    color: #070018;
 }
 
 
 /**** Footer ****/
 
-
-
+footer a {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 50px 50px 100px;
+}
 /***********************
 
     Typography
@@ -86,13 +104,26 @@ main {
 
 /**** Main *****/
 
-h1 {
-    font-size: 7rem;
+main {
+    font-family: 'Handjet', cursive;
 }
 
-p {
-    font-size: 3rem;
+h1 {
+    font-size: 7rem;
+    margin-bottom: 10px;
+    color: yellow;
 }
+
+p:nth-of-type(1) {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+
+p:nth-of-type(2) {
+    font-size: 2rem;
+}
+
 
 .submit__btn {
     width: 100px;
@@ -105,7 +136,17 @@ p {
 /**** Footer ****/
 
 
+footer {
+    background-color: #070018;
+    color: #fff;
+    padding: 50px;
+}
 
+.logo {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+}
 
 
 
