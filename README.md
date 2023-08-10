@@ -21,6 +21,11 @@ https://github.com/webdevkeenan/survey_form/wiki
 
 ![Screenshot 2023-08-09 at 17-04-07 Keenan's Brand Spanking New Survey Form](https://github.com/webdevkeenan/survey_form/assets/42125735/0959919a-fa30-4576-a003-3c75fa27903a)
 
+### v1.3 [Thank You Page]
+
+![Screenshot 2023-08-09 at 21-17-08 Thank You!](https://github.com/webdevkeenan/survey_form/assets/42125735/24a74f56-1b70-46d3-bb31-6a34412c4d55)
+
+
 
 ### Image Credits
 + [Flaticon.com](https://www.flaticon.com/free-icons/joystick)
